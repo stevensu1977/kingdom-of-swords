@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "POLYGON Dungeon sample",
+  "scenes": {
+    "floor": "Assets/PolygonDungeon/Prefabs/Environments/Floors/SM_Env_Tiles_01.tscn",
+    "center": "Assets/PolygonDungeon/Prefabs/Environments/Floors/SM_Env_Tiles_Ornate_01.tscn",
+    "wall": "Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_01_DoubleSided.tscn",
+    "doorframe": "Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_01.tscn",
+    "door": "Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_01.tscn",
+    "pillar": "Assets/PolygonDungeon/Prefabs/Environments/Pillars/SM_Env_Pillar_Square_01.tscn",
+    "crate": "Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Crate_Wood_01.tscn",
+    "barrel": "Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Barrel_01.tscn",
+    "torch": "Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Torch_Ornate_01.tscn"
+  }
+}

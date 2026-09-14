@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "models": [
+    {
+      "id": "ember_altar",
+      "path": "assets/models/ember_altar.glb",
+      "name": "Ember Altar",
+      "status": "in-game",
+      "triangles": 1320,
+      "sourceFiles": [
+        "tools/build_ember_props.py"
+      ],
+      "dependencies": [],
+      "pivot": "base center",
+      "upAxis": "Y",
+      "bones": [],
+      "animations": [],
+      "materials": [
+        "Midnight basalt",
+        "Carved blue stone",
+        "Antique brass",
+        "Blackened iron",
+        "Amber crystal"
+      ],
+      "boundsMeters": {
+        "size": [
+          1.74,
+          1.66,
+          1.74
+        ]
+      },
+      "license": "MIT"
+    },
+    {
+      "id": "crown_seal",
+      "path": "assets/models/crown_seal.glb",
+      "name": "Crown Seal",
+      "status": "in-game",
+      "triangles": 1332,
+      "sourceFiles": [
+        "tools/build_ember_props.py"
+      ],
+      "dependencies": [],
+      "pivot": "base center",
+      "upAxis": "Y",
+      "bones": [],
+      "animations": [],
+      "materials": [
+        "Midnight basalt",
+        "Antique brass"
+      ],
+      "boundsMeters": {
+        "size": [
+          2,
+          0.16,
+          2
+        ]
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "monster__skeleton__archer__vari01_kings_raid",
+      "path": "assets/models/monster__skeleton__archer__vari01_kings_raid.glb",
+      "triangles": 4343,
+      "materials": 2,
+      "status": "in-game",
+      "sourceFiles": [
+        "tools/archer/assets/source/archer_static.blend",
+        "tools/archer/assets/source/archer_animated.blend",
+        "tools/archer/tools/animate_archer.py",
+        "tools/archer/tools/finalize_archer.py",
+        "tools/archer/tools/review_archer.py",
+        "tools/archer/tools/inspect_archer.py",
+        "tools/archer/tools/pack_reviews.py",
+        "tools/archer/tools/check_archer_clearance.py"
+      ],
+      "dependencies": [
+        "assets/models/monster__skeleton__archer__vari01_kings_raid_Image_0.png"
+      ],
+      "id": "skeleton_archer",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "bone_arrow",
+      "name": "Bone Archer Arrow",
+      "path": "assets/models/bone_arrow.glb",
+      "status": "in-game",
+      "triangles": 42,
+      "sourceFiles": [
+        "tools/build_archer_projectile.py"
+      ],
+      "dependencies": [],
+      "pivot": "base center",
+      "upAxis": "Y",
+      "boundsMeters": {
+        "size": [
+          0.15,
+          0.13,
+          1.04
+        ]
+      },
+      "materials": [
+        "Ash shaft",
+        "Silver arrowhead",
+        "Copper fletching"
+      ],
+      "bones": [],
+      "animations": [],
+      "license": "MIT"
+    }
+  ],
+  "bindings": [],
+  "integrations": []
+}

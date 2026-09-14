@@ -1,0 +1,39 @@
+.godot/
+build/
+screenshots/
+.venv/
+__pycache__/
+*.pyc
+*.blend1
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+.agents/
+.codex/
+.claude/
+
+# Local dependencies: source redistribution permission has not been established.
+# These files are intentionally absent from this public checkout.
+Assets/PolygonDungeon/
+assets/characters/*.glb
+assets/characters/*.glb.import
+assets/characters/*.png
+assets/characters/*.png.import
+assets/characters/*.jpg
+assets/characters/*.jpg.import
+assets/models/Chambre Maudite.ogg
+assets/models/Chambre Maudite.ogg.import
+assets/models/src/
+assets/qa/
+tools/archer/assets/qa/
+tools/archer/assets/models/
+tools/ember_ambience.wav
+tools/ember_prop_metrics.json
+
+# Include only the maintainer-selected showcase clip.
+docs/media/*
+!docs/media/gameplay.mp4

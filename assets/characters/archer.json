@@ -1,0 +1,62 @@
+{
+  "archetype": "archer",
+  "model": "res://assets/models/monster__skeleton__archer__vari01_kings_raid.glb",
+  "height": 1.92,
+  "speed": 2.1,
+  "health": 40,
+  "damage": 8,
+  "range": 9.5,
+  "impact": 1.3333333333333333,
+  "duration": 2.2,
+  "idle": "rest",
+  "move": "run",
+  "attack": "draw",
+  "clips": [
+    {
+      "name": "draw",
+      "duration": 1.2,
+      "loop": false,
+      "fps": 30,
+      "events": [
+        {
+          "name": "aim_ready",
+          "time": 1.2
+        }
+      ]
+    },
+    {
+      "name": "run",
+      "duration": 0.8,
+      "loop": true,
+      "fps": 30,
+      "events": [
+        {
+          "name": "footstep_left",
+          "time": 0
+        },
+        {
+          "name": "footstep_right",
+          "time": 0.4
+        }
+      ]
+    },
+    {
+      "name": "shoot",
+      "duration": 1,
+      "loop": false,
+      "fps": 30,
+      "events": [
+        {
+          "name": "arrow_release",
+          "time": 0.13333333333333333
+        },
+        {
+          "name": "reload_pickup",
+          "time": 0.6333333333333333
+        }
+      ]
+    }
+  ],
+  "sourceHash": "6b563f28c77459c5870affac7e95a9fa64facdcfd04c91852056a35cb1f54e4a",
+  "notes": "Use supplied draw/shoot events and read the existing arrow bone; no rig edits. GLB forward is +Z."
+}

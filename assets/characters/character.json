@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "hero": {
+    "model": "res://assets/characters/paladin.glb",
+    "weapon": "res://assets/characters/greatsword.glb",
+    "height": 2.05,
+    "speed": 4.5,
+    "health": 100,
+    "damage": 28,
+    "range": 2.35,
+    "impact": 0.46,
+    "duration": 1.02,
+    "idle": "Ready",
+    "move": "ArmedWalk",
+    "attack": "Attack",
+    "alternate": "Uppercut",
+    "handBone": "mixamorig_RightHand_030"
+  },
+  "enemy": {
+    "model": "res://assets/characters/skeleton.glb",
+    "height": 1.95,
+    "speed": 1.85,
+    "health": 50,
+    "damage": 9,
+    "range": 2.0,
+    "impact": 0.5,
+    "duration": 1.15,
+    "idle": "Idle",
+    "move": "Walk",
+    "attack": "Attack"
+  }
+}

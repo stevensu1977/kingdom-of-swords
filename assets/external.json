@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "prepared-characters",
+      "required": true,
+      "distribution": "external",
+      "reason": "Original model and animation redistribution licences have not been supplied.",
+      "files": [
+        "assets/characters/greatsword.glb",
+        "assets/characters/greatsword_da2e830f-8e15-4d97-b662-df9a5ef4e753_basecolor.jpg",
+        "assets/characters/paladin.glb",
+        "assets/characters/paladin_paladin_rig_palad\u00edn_3d_modelo_basecolor.png",
+        "assets/characters/paladin_paladin_rig_palad\u00edn_3d_modelo_normal.png",
+        "assets/characters/paladin_paladin_rig_palad\u00edn_3d_modelo_rm.png",
+        "assets/characters/skeleton.glb",
+        "assets/characters/skeleton_skeleton_warrior_3d_model_basecolor.jpg",
+        "assets/characters/skeleton_skeleton_warrior_3d_model_normal.jpg",
+        "assets/characters/skeleton_skeleton_warrior_3d_model_rm.jpg"
+      ]
+    },
+    {
+      "id": "dungeon",
+      "required": true,
+      "distribution": "external",
+      "reason": "The native dungeon scenes require a separate applicable asset licence.",
+      "files": [
+        "Assets/PolygonDungeon/Materials/Dungeon_Material_01_mat.tres",
+        "Assets/PolygonDungeon/Models/SM_Env_Door_01.res",
+        "Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_01.res",
+        "Assets/PolygonDungeon/Models/SM_Env_Tiles_01.res",
+        "Assets/PolygonDungeon/Models/SM_Env_Tiles_Ornate_01.res",
+        "Assets/PolygonDungeon/Models/SM_Env_Wall_01_DoubleSided.res",
+        "Assets/PolygonDungeon/Models/SM_Env_Wall_DoorFrame_01.res",
+        "Assets/PolygonDungeon/Models/SM_Prop_Barrel_01.res",
+        "Assets/PolygonDungeon/Models/SM_Prop_Crate_Wood_01.res",
+        "Assets/PolygonDungeon/Models/SM_Prop_Torch_Ornate_01.res",
+        "Assets/PolygonDungeon/Prefabs/Environments/Floors/SM_Env_Tiles_01.tscn",
+        "Assets/PolygonDungeon/Prefabs/Environments/Floors/SM_Env_Tiles_Ornate_01.tscn",
+        "Assets/PolygonDungeon/Prefabs/Environments/Pillars/SM_Env_Pillar_Square_01.tscn",
+        "Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_01.tscn",
+        "Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_01_DoubleSided.tscn",
+        "Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_01.tscn",
+        "Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Barrel_01.tscn",
+        "Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Crate_Wood_01.tscn",
+        "Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Torch_Ornate_01.tscn",
+        "Assets/PolygonDungeon/Textures/Dungeons_Texture_01.png",
+        "Assets/PolygonDungeon/Textures/Emmisive/Emmisive_01.png"
+      ]
+    },
+    {
+      "id": "optional-music",
+      "required": false,
+      "distribution": "external",
+      "reason": "Optional locally supplied recording; redistribution permission has not been supplied.",
+      "files": [
+        "assets/models/Chambre Maudite.ogg"
+      ]
+    }
+  ]
+}

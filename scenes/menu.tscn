@@ -1,0 +1,10 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/ember_menu.gd" id="1_yqeox"]
+
+[node name="EmberMenu" type="Control" unique_id=1382141041]
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_yqeox")

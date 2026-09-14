@@ -1,0 +1,48 @@
+config_version=5
+
+[application]
+config/use_custom_user_dir=true
+config/custom_user_dir_name="KingdomOfSwords"
+config/name="Kingdom of Swords — The Last Ember"
+run/main_scene="res://scenes/startup.tscn"
+run/max_fps=60
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/description="Break the watch. Rekindle the three seals. Return to the light."
+config/icon="res://assets/icon.svg"
+
+[autoload]
+Profile="*res://scripts/profile.gd"
+Soundtrack="*res://scripts/soundtrack.gd"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+
+[physics]
+3d/physics_engine="Jolt Physics"
+common/physics_ticks_per_second=60
+
+[filesystem]
+
+import/blender/enabled=false
+
+[rendering]
+
+textures/vram_compression/import_etc2_astc=true
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+anti_aliasing/quality/msaa_3d=2
+environment/defaults/default_clear_color=Color(0.13, 0.2, 0.21, 1)
+
+[audio]
+driver/enable_input=false
+
+[threading]
+worker_pool/max_threads=4
+
+[editor]
+import/use_multiple_threads=false
