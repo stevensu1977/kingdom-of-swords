@@ -20,6 +20,10 @@ scripted asset creation, integration, testing, and engine-recorded review.
 The character and dungeon artwork have separate origins. See the
 [workflow](docs/AGENT_WORKFLOW.md) for the scope of the example.
 
+![Kingdom of Swords main menu with the title, start button, and sanctuary backdrop](docs/media/menu.png)
+
+*Main menu from the recorded version.*
+
 ## Run
 
 Use **Godot 4.6.3**, standard GDScript build, with the Compatibility renderer.
@@ -82,8 +86,8 @@ Completing the encounter records your best time locally.
 The public copy focuses on the sanctuary. Unrelated shooter, farm, lab, and
 warehouse examples are outside this release.
 The selected recording shows the original game, including its BGM switch.
-It predates the public copy's menu cleanup. The cover is a still from that
-recording.
+It predates the public copy's menu cleanup. The cover and menu screenshot
+are stills from that recording.
 
 ## Art and assets
 

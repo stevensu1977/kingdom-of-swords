@@ -34,7 +34,8 @@ tools/archer/assets/models/
 tools/ember_ambience.wav
 tools/ember_prop_metrics.json
 
-# Include only the selected showcase clip and its README cover.
+# Include only the selected showcase clip and its README screenshots.
 docs/media/*
 !docs/media/gameplay.mp4
 !docs/media/cover.png
+!docs/media/menu.png
