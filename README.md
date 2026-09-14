@@ -2,6 +2,8 @@
 
 **An agent-built Godot action game — an Astra showcase.**
 
+[![The Warden using Divine Shield against skeleton guardians in The Last Ember](docs/media/cover.png)](docs/media/gameplay.mp4)
+
 [中文](README.zh-CN.md) · [Development workflow](docs/AGENT_WORKFLOW.md) ·
 [Build and test](docs/BUILDING.md) · [Assets and licences](docs/ASSETS.md)
 
@@ -80,7 +82,8 @@ Completing the encounter records your best time locally.
 The public copy focuses on the sanctuary. Unrelated shooter, farm, lab, and
 warehouse examples are outside this release.
 The selected recording shows the original game, including its BGM switch.
-It predates the public copy's menu cleanup.
+It predates the public copy's menu cleanup. The cover is a still from that
+recording.
 
 ## Art and assets
 

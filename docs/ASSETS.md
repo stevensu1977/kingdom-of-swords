@@ -82,16 +82,18 @@ under `docs/licenses/` and in the notices.
 ## Release boundaries
 
 - Git includes the reviewed source, original props/audio, attributed archer,
-  fonts, documentation, and the maintainer-selected `docs/media/gameplay.mp4`.
+  fonts, documentation, the maintainer-selected `docs/media/gameplay.mp4`,
+  and `docs/media/cover.png`, a still extracted at 00:10 from that recording.
 - This prepared public directory omits the external art entirely. A developer
   may supply it separately for a permitted local use. Full-game verification
   during preparation used a separate temporary working directory.
 - A build made from that checkout can contain those external assets.
   `.gitignore` does not control Godot exports or grant permission to
   distribute a binary.
-- The selected recording shows the original artwork and local music; the
-  selection does not change their underlying licences. Other process images,
-  older recordings, and new local verification media are ignored.
+- The selected recording shows the original artwork and local music; the cover
+  shows the same artwork. Their inclusion does not change the underlying
+  licences. Other process images, older recordings, and new local verification
+  media are ignored.
 
 Use `python3 tools/audit_public.py` before staging or publishing changes.
 It checks file selection and known sensitive patterns, not legal ownership.

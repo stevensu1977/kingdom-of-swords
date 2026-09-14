@@ -2,6 +2,8 @@
 
 **使用 Agent 开发的 Godot 动作游戏，作为 Astra 开发案例分享。**
 
+[![骑士开启圣盾，与地牢中的近战骷髅和弓箭手交战](docs/media/cover.png)](docs/media/gameplay.mp4)
+
 [English](README.md) · [开发过程](docs/AGENT_WORKFLOW.md) ·
 [构建与测试](docs/BUILDING.md) · [资源与许可](docs/ASSETS.md)
 
@@ -62,7 +64,8 @@ godot --path .
 - 资源清单、构建说明和公开文件审计工具。
 
 本版本聚焦 The Last Ember，未包含原项目中独立的农场、实验室、仓库和射击示例。
-仓库只保留选定的 BGM 开关演示视频，未包含其他制作过程图片或旧录像。
+仓库只保留选定的 BGM 开关演示视频及从中截取的 README 封面，
+未包含其他制作过程图片或旧录像。点击封面即可打开演示视频。
 该视频展示公开版菜单整理前的原游戏。
 当前已完成三角形祭坛布局、左下角出生点、独立 BGM 开关和本地偏好保存。
 完整验证结果见 [VALIDATION.md](docs/VALIDATION.md)。
